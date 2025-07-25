@@ -1,0 +1,101 @@
+{
+  "display": {
+      "separator": ": ",     // Separator between keys and values
+      "constants": [
+          "─────────────────" // {$1}, used in Custom module
+      ],
+      "color": {
+          "keys": "#008080",    // Key color
+          "title": "red"     // Title color
+      },
+      "key": {
+          "width": 12,       // Aligns keys to this width
+          "type": "string"   // string, icon, both, or none
+      },
+      "bar": {
+          "width": 10,       // Width of percentage bars
+          "charElapsed": "■", // Character for elapsed portion
+          "charTotal": "-"   // Character for total portion
+      },
+      "percent": {
+          "type": 9,         // 1=number, 2=bar, 3=both, 9=colored number
+          "color": {
+              "green": "blue",
+              "yellow": "light_yellow",
+              "red": "light_red"
+          }
+      }
+  },
+  "logo": {
+      "type": "auto",        // Logo type: auto, builtin, small, file, etc.
+      "source": "~/Assets/Archlinux.png",      // Built-in logo name or file path
+      "width": 30,           // Width in characters (for image logos)
+      "height": 15,          // Height in characters (for image logos)
+      "padding": {
+          "top": 1,          // Top padding
+          "left": 0,         // Left padding
+          "right": 3         // Right padding
+      },
+  },
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;30m┌────────────────── Hardware Information ────────────────┐\u001b[0m"
+    },
+    {
+      "type": "os",
+      "key": "│ OS",
+      "keycolor": "#008080",
+      "format": "{2}                                    \u001b[38;5;30m│\u001b[0m"     
+    },
+    {
+      "type": "kernel",
+      "key": "│ Kernel",
+      "keycolor": "#008080",
+      "format": "{2}                             \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "uptime",
+      "key": "│ Uptime",
+      "keycolor": "#008080",
+      "format": "{2}                                             \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "shell",
+      "key": "│ Shell",
+      "keycolor": "#008080",
+      "format": "{2}                                  \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "cpu",
+      "key": "│ CPU",
+      "keycolor": "#008080",
+      "format": "{2}                                  \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "memory",
+      "key": "│ Memory",
+      "keycolor": "#008080",
+      "format": "{2}                                      \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "disk",
+      "key": "│ Disk",
+      "keycolor": "#008080",
+      "format": "{2}                                    \u001b[38;5;30m│\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;30m└────────────────────────────────────────────────────────┘\u001b[0m"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    }
+  ],
+}

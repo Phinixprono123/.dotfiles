@@ -1,0 +1,118 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+  "margin": "2 2 2 2",
+  "spacing": 4,
+
+  "modules-left": [
+    "clock",
+    "custom/sep",
+    "tray"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "custom/bluetooth_devices",
+    "custom/sep",
+    "temperature",
+    "custom/sepulseaudio",
+    "custom/volume",
+    "custom/powermenu"
+  ],
+
+  // Separator module
+  "custom/sep": {
+    "format": ""
+  },
+
+  // Power menu
+  "custom/powermenu": {
+    "on-click": "~/.config/wofi/scripts/wofipowermenu.py",
+    "format": "",
+    "tooltip": false
+  },
+
+  // Bluetooth device indicator
+  "custom/bluetooth_devices": {
+    "exec": "$HOME/.config/waybar/custom_modules/bluetooth_devices.sh",
+    "return-type": "json",
+    "format": "{}",
+    "justify": "center",
+    "interval": 5,
+    "on-click": "blueman-manager"
+  },
+
+  // Workspace module
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "format-icons": {
+      "active": "",
+      "urgent": "",
+      "default": ""
+    }
+  },
+
+  // Clock module (horizontal)
+  "clock": {
+    "tooltip": true,
+    "format": "{:%I:%M:%p}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+
+  // Tray module
+  "tray": {
+    "icon-size": 18,
+    "show-passive-items": true
+  },
+
+  // Temperature (horizontal)
+  "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 80,
+    "format": "{icon} {temperatureC}°C",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+
+  // Audio module (horizontal)
+
+  "custom/volume": {
+    "exec": "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100) \"%\"}'",
+    "interval": 1,
+    "format": " {}",
+    "tooltip": false,
+    "on-click": "pavucontrol",
+    "on-scroll-up": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%-"
+  },
+    "cpu": {
+  "format": "{usage}% ",
+  "tooltip": false
+  },
+  "memory": {
+    "format": "{}% ",
+    "tooltip": false
+  },
+  "disk": {
+    "format": "{used}/{total} ",
+    "path": "/",
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": "{signalStrength}% ",
+    "format-ethernet": "{ip} ",
+    "tooltip": false
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  }
+}

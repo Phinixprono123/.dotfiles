@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sun",
+    "mass": 1.989e30,
+    "radius": 696340,
+    "texture": "sun.jpg",
+    "position": [0, 0, 0],
+    "velocity": [0, 0, 0]
+  },
+  {
+    "name": "Mercury",
+    "mass": 3.285e23,
+    "radius": 2439.7,
+    "texture": "mercury.jpg",
+    "position": [5.79e10, 0, 0],
+    "velocity": [0, 47360, 0]
+  },
+  {
+    "name": "Venus",
+    "mass": 4.867e24,
+    "radius": 6051.8,
+    "texture": "venus.jpg",
+    "position": [1.082e11, 0, 0],
+    "velocity": [0, 35020, 0]
+  },
+  {
+    "name": "Earth",
+    "mass": 5.972e24,
+    "radius": 6371,
+    "texture": "earth.jpg",
+    "position": [1.496e11, 0, 0],
+    "velocity": [0, 29780, 0]
+  },
+  {
+    "name": "Mars",
+    "mass": 6.39e23,
+    "radius": 3389.5,
+    "texture": "mars.jpg",
+    "position": [2.279e11, 0, 0],
+    "velocity": [0, 24077, 0]
+  },
+  {
+    "name": "Jupiter",
+    "mass": 1.898e27,
+    "radius": 69911,
+    "texture": "jupiter.jpg",
+    "position": [7.785e11, 0, 0],
+    "velocity": [0, 13070, 0]
+  },
+  {
+    "name": "Saturn",
+    "mass": 5.683e26,
+    "radius": 58232,
+    "texture": "saturn.jpg",
+    "position": [1.433e12, 0, 0],
+    "velocity": [0, 9690, 0]
+  },
+  {
+    "name": "Uranus",
+    "mass": 8.681e25,
+    "radius": 25362,
+    "texture": "uranus.jpg",
+    "position": [2.877e12, 0, 0],
+    "velocity": [0, 6810, 0]
+  },
+  {
+    "name": "Neptune",
+    "mass": 1.024e26,
+    "radius": 24622,
+    "texture": "neptune.jpg",
+    "position": [4.503e12, 0, 0],
+    "velocity": [0, 5430, 0]
+  }
+]
