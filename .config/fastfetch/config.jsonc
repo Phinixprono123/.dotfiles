@@ -43,53 +43,53 @@
     "separator",
     {
       "type": "custom",
-      "format": "\u001b[38;5;30m┌────────────────── Hardware Information ────────────────┐\u001b[0m"
+      "format": "\u001b[38;5;30m┌─────────────── Hardware Information ─────────────┐\u001b[0m"
     },
     {
       "type": "os",
       "key": "│ OS",
       "keycolor": "#008080",
-      "format": "{2}                                    \u001b[38;5;30m│\u001b[0m"     
+      "format": "{2}                              \u001b[38;5;30m│\u001b[0m"     
     },
     {
       "type": "kernel",
       "key": "│ Kernel",
       "keycolor": "#008080",
-      "format": "{2}                             \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                       \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "uptime",
       "key": "│ Uptime",
       "keycolor": "#008080",
-      "format": "{2}                                             \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                                       \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "shell",
       "key": "│ Shell",
       "keycolor": "#008080",
-      "format": "{2}                                  \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                                \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "cpu",
       "key": "│ CPU",
       "keycolor": "#008080",
-      "format": "{2}                                  \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                            \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "memory",
       "key": "│ Memory",
       "keycolor": "#008080",
-      "format": "{2}                                      \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                                \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "disk",
       "key": "│ Disk",
       "keycolor": "#008080",
-      "format": "{2}                                    \u001b[38;5;30m│\u001b[0m"
+      "format": "{2}                              \u001b[38;5;30m│\u001b[0m"
     },
     {
       "type": "custom",
-      "format": "\u001b[38;5;30m└────────────────────────────────────────────────────────┘\u001b[0m"
+      "format": "\u001b[38;5;30m└──────────────────────────────────────────────────┘\u001b[0m"
     },
     "break",
     {

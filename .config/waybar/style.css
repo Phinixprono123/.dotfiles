@@ -1,53 +1,38 @@
 * {
-  border: none;
-  font-family: "Hack", "Font Awesome 6 Pro";
+  border: 1px;
+  border-radius: 100;
+  font-family: "Hack", "CaskaydiaCove Nerd Font";
   font-size: 13px;
   font-weight: 600;
-  background: none;
+  background: #3b4252;
 }
-
 window#waybar {
-  color: #a5adcb;
-}
-
-/* Horizontal layout modules */
+  color: #3b4252;
+} /* Horizontal layout modules */
 .modules-left,
 .modules-right,
 .modules-center {
   border-radius: 6px;
-  background: #181926;
+  background: #3b4252;
   padding: 6px 12px;
   margin: 0 4px;
 }
-
-/* Tooltip styling */
+.modules-center {
+  background: #3b4252;
+} /* Tooltip styling */
 tooltip {
-  color: #a5adcb;
-  background-color: #181926;
+  color: #4c566a;
+  background-color: #3b4252;
   text-shadow: none;
 }
-
 tooltip * {
   color: #a5adcb;
   text-shadow: none;
-}
-
-/* Separator styling for horizontal spacing */
+} /* Separator styling for horizontal spacing */
 #custom-sep {
-  color: #494d64;
+  color: #4c566a;
   margin: 0 6px;
-}
-
-/* Modules section overrides (preserved for consistency) */
-#workspaces,
-#clock,
-#custom-bluetooth_devices,
-#custom-powermenu,
-#pulseaudio,
-#tray {
-}
-
-/* Workspace-specific styles */
+} /* Workspace-specific styles */
 #workspaces {
   border-radius: 4px;
 }
@@ -57,15 +42,15 @@ tooltip * {
   padding: 0;
 }
 #workspaces button:hover {
-  color: #a6da95;
+  color: #a3be8c;
 }
 #workspaces button.active {
-  color: #f5bde6;
-}
-
-/* Module colors */
-#temperature {
+  color: #b48ead;
+} /* Module colors */
+#cpu {
   color: #eed49f;
+  margin: 0;
+  padding-right: 3;
 }
 #clock {
   font-weight: 600;
@@ -75,14 +60,15 @@ tooltip * {
   color: #8aadf4;
   margin-top: 0;
 }
-#pulseaudio {
+#custom-volume {
   color: #a6da95;
 }
-#pulseaudio.muted {
+#custom-volume.muted {
   color: #ed8796;
 }
 #custom-powermenu {
   margin: 0;
   padding-left: 8px;
+  padding-right: 5px;
   color: #6e738d;
 }

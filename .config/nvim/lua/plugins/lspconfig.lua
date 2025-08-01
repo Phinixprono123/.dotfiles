@@ -4,7 +4,12 @@ return {
     opts = {
       servers = {
         ruff = {},
-        --  pyright = {},
+        cssls = {},
+        html = {},
+        lua_ls = {},
+        ts_ls = {},
+        eslint = {},
+        clangd = {},
       },
     },
   },

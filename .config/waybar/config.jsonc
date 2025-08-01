@@ -14,22 +14,20 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "custom/bluetooth_devices",
     "custom/sep",
-    "temperature",
-    "custom/sepulseaudio",
+    "cpu",
     "custom/volume",
     "custom/powermenu"
   ],
 
   // Separator module
   "custom/sep": {
-    "format": ""
+    "format": ""
   },
 
   // Power menu
   "custom/powermenu": {
-    "on-click": "~/.config/wofi/scripts/wofipowermenu.py",
+    "on-click": "nwg-bar",
     "format": "",
     "tooltip": false
   },
@@ -68,6 +66,16 @@
   "tray": {
     "icon-size": 18,
     "show-passive-items": true
+  },
+
+  "network": {
+    "format-wifi": "<span color='#00FFFF'> 󰤨 </span>{essid} ",
+    "format-ethernet": "<span color='#7FFF00'> </span>Wired ",
+    "tooltip-format": "<span color='#FF1493'> 󰅧 </span>{bandwidthUpBytes}  <span color='#00BFFF'> 󰅢 </span>{bandwidthDownBytes}",
+    "format-linked": "<span color='#FFA500'> 󱘖 </span>{ifname} (No IP) ",
+    "format-disconnected": "<span color='#FF4040'>  </span>Disconnected ",
+    "format-alt": "<span color='#00FFFF'> 󰤨 </span>{signalStrength}% ",
+    "interval": 1
   },
 
   // Temperature (horizontal)
