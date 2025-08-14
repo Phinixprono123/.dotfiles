@@ -1,0 +1,9 @@
+2025/08/13-11:45:10.676 5b1 Reusing MANIFEST /home/phinixprono1234/.config/discordptb/Local Storage/leveldb/MANIFEST-000001
+2025/08/13-11:45:10.858 5b1 Recovering log #122
+2025/08/13-11:45:10.916 5b1 Reusing old log /home/phinixprono1234/.config/discordptb/Local Storage/leveldb/000122.log 
+2025/08/13-11:54:11.218 5b2 Level-0 table #126: started
+2025/08/13-11:54:11.344 5b2 Level-0 table #126: 1625393 bytes OK
+2025/08/13-11:54:11.425 5b2 Delete type=0 #122
+2025/08/13-11:54:22.607 5b2 Level-0 table #128: started
+2025/08/13-11:54:22.649 5b2 Level-0 table #128: 31582 bytes OK
+2025/08/13-11:54:22.686 5b2 Delete type=0 #125

@@ -1,0 +1,134 @@
+* {
+  border: none;
+  border-radius: 10px;
+  font-family:
+    "Hack", "JetbrainsMono Nerd Font", "Font Awesome 5 Free",
+    "Material Design Icons";
+  font-size: 15px;
+  min-height: 10px;
+}
+
+.module {
+  box-shadow: 0 0 5px 1.69868px rgba(46, 52, 64, 0.5);
+  margin-bottom: 6px;
+}
+
+#waybar {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: transparent;
+}
+
+#waybar.hidden {
+  opacity: 0.2;
+}
+
+#custom-window {
+  margin-top: 6px;
+  margin-right: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #d8dee9;
+  background: #3b4252;
+}
+
+#workspaces {
+  margin-top: 6px;
+  margin-left: 12px;
+  font-size: 4px;
+  border-radius: 10px;
+  background-color: #3b4252;
+  transition: none;
+}
+#workspaces button:hover {
+  background-color: #4c566a;
+}
+
+#workspaces button.active {
+  background-color: rgba(129, 161, 193, 0.5);
+}
+
+#pulseaudio {
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #b48ead;
+  background: #3b4252;
+}
+
+#pulseaudio.muted {
+  color: #bf616a;
+}
+
+#clock {
+  font-size: 15px;
+  font-family: Hack;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #a3be8c;
+  background: #3b4252;
+}
+
+#memory {
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #ebcb8b;
+  background: #3b4252;
+}
+#cpu {
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #88c0d0;
+  background: #3b4252;
+}
+
+#tray {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #b5e8e0;
+  background: #3b4252;
+}
+
+#custom-power {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 10px;
+  padding-right: 13px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  transition: none;
+  color: #bf616a;
+  background: #3b4252;
+}

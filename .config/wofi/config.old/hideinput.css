@@ -1,0 +1,22 @@
+window {
+    background-color: #181926;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#input {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+}
+
+#entry {
+    color: #a5adcb;
+    font-family: "Hack", "Font Awesome 6 Pro";
+    font-size: 14px;
+    padding: 6px;
+}
+
+#entry:selected {
+    background-color: #363a4f;
+}

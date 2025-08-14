@@ -1,0 +1,6 @@
+theme = nord
+
+font-family = JetBrains Mono Nerd Font
+font-size = 10
+
+gtk-titlebar = true

@@ -1,0 +1,6 @@
+[Libinput][2522][9219][COMPANY 2.4G Device Mouse]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=2
+
+[Mouse]
+cursorTheme=Nordic-cursors

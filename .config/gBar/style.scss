@@ -1,0 +1,131 @@
+// Variables
+$base-bg : #3b4252;
+$base-text : #d8dee9;
+$font-stack : "Hack",
+"JetbrainsMono Nerd Font",
+"Font Awesome 5 Free",
+"Material Design Icons";
+
+// Universal reset
+* {
+  border: none;
+  border-radius: 10px;
+  font-family: $font-stack;
+  font-size: 15px;
+  min-height: 10px;
+}
+
+// Module container styling
+.module {
+  box-shadow: 0 0 5px 1.7px rgba(46, 52, 64, 0.5);
+  margin-bottom: 6px;
+}
+
+// Bar wrapper
+#gbar {
+  padding: 6px 0;
+  background: transparent;
+
+  &.hidden {
+    opacity: 0.2;
+  }
+}
+
+// Workspaces (Hyprland)
+#workspaces {
+  margin: 6px 0 0 12px;
+  font-size: 4px;
+  border-radius: 10px;
+  background-color: $base-bg;
+  transition: none;
+
+  button:hover {
+    background-color: #4c566a;
+  }
+
+  button.active {
+    background-color: rgba(129, 161, 193, 0.5);
+  }
+}
+
+// Active window title
+#custom-window {
+  margin: 6px 6px 0 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: $base-text;
+  background: $base-bg;
+}
+
+// PulseAudio
+#pulseaudio {
+  font-weight: 600;
+  margin: 6px 5px 0 8px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #b48ead;
+  background: $base-bg;
+
+  &.muted {
+    color: #bf616a;
+  }
+}
+
+// Clock
+#clock {
+  font-size: 15px;
+  font-family: Hack;
+  font-weight: 600;
+  margin: 6px 5px 0 8px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #a3be8c;
+  background: $base-bg;
+}
+
+// Memory
+#memory {
+  font-weight: 600;
+  margin: 6px 5px 0 8px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #ebcb8b;
+  background: $base-bg;
+}
+
+// CPU
+#cpu {
+  font-weight: 600;
+  margin: 6px 6px 0 8px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #88c0d0;
+  background: $base-bg;
+}
+
+// Tray
+#tray {
+  margin: 6px 0 0 8px;
+  padding: 0 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #b5e8e0;
+  background: $base-bg;
+}
+
+// Power button
+#custom-power {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 6px 8px;
+  padding: 0 13px 2px 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #bf616a;
+  background: $base-bg;
+}

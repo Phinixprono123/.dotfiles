@@ -1,0 +1,13 @@
+{
+  "name": "GruvBox",
+  "hyprland_conf": "hyprland.conf",
+  "waybar_css": "waybar.css",
+  "wallpaper": "wallpaper.png",
+  "gtk_theme": "Gruvbox-Dark-Medium",
+  "adw_color_scheme": "prefer-dark",
+  "ghostty_src": "ghostty",
+  "ghostty_target": "config",
+  "zen_profile_dir": "~/.zen/8qnhqdbu.Default (release)/",
+  "zen_userchrome": "zen/userChrome.css",
+  "zen_usercontent": "zen/userContent.css"
+}
