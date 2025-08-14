@@ -1,3 +1,11 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+vim.keymap.set("n", "<Leader>gf", function()
+	require("conform").format()
+end, { desc = "Format current file" })
+
+vim.keymap.set("n", "<leader>ll", function()
+	require("lint").try_lint()
+end, { desc = "Try linting for the current file" })
+
+vim.keymap.set("n", "<leader>n", function()
+	require("telescope").extensions.notify.notify()
+end, { desc = "Show notification history" })

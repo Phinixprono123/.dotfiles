@@ -1,0 +1,15 @@
+2025/08/13-16:08:26.727 34f5 Reusing MANIFEST /home/phinixprono1234/.config/discordptb/Local Storage/leveldb/MANIFEST-000001
+2025/08/13-16:08:26.833 34f5 Recovering log #127
+2025/08/13-16:08:26.848 34f5 Reusing old log /home/phinixprono1234/.config/discordptb/Local Storage/leveldb/000127.log 
+2025/08/13-16:12:46.931 34f6 Level-0 table #131: started
+2025/08/13-16:12:47.216 34f6 Level-0 table #131: 1627874 bytes OK
+2025/08/13-16:12:47.340 34f6 Delete type=0 #127
+2025/08/13-16:12:47.341 34f6 Compacting 4@0 + 1@1 files
+2025/08/13-16:12:47.683 34f6 Generated table #132@0: 74 keys, 1669259 bytes
+2025/08/13-16:12:47.684 34f6 Compacted 4@0 + 1@1 files => 1669259 bytes
+2025/08/13-16:12:47.715 34f6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/13-16:12:47.716 34f6 Delete type=2 #121
+2025/08/13-16:12:47.717 34f6 Delete type=2 #128
+2025/08/13-16:12:47.717 34f6 Delete type=2 #123
+2025/08/13-16:12:47.717 34f6 Delete type=2 #131
+2025/08/13-16:12:47.717 34f6 Delete type=2 #126

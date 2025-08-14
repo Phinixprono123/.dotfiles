@@ -1,0 +1,12 @@
+(defwindow example
+           :monitor 0
+  (greeter :text "Say hello!"
+           :name "Tim"))
+
+(defwidget greeter [?text name]
+  (box :orientation "horizontal"
+       :halign "center"
+    text
+    (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")))
+
