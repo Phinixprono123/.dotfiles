@@ -1,3 +1,0 @@
-2025-08-01 22:17:24: Starting server using secret key: /home/phinixprono1234/.config/joplin-desktop/ipc_secret_key.txt
-2025-08-02 11:51:16: Starting server using secret key: /home/phinixprono1234/.config/joplin-desktop/ipc_secret_key.txt
-2025-08-12 14:59:57: Starting server using secret key: /home/phinixprono1234/.config/joplin-desktop/ipc_secret_key.txt
