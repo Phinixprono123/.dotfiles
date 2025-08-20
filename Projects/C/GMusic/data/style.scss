@@ -1,0 +1,84 @@
+$bg: #121212;
+$surface: #1e1e1e;
+$accent: #7c4dff;
+$text: #e6e6e6;
+$muted: #a0a0a0;
+$border: rgba(255, 255, 255, 0.06);
+$radii: 12px;
+
+.app-root {
+  background: $bg;
+  color: $text;
+}
+
+.app-header {
+  background: $surface;
+  border-bottom: 1px solid $border;
+}
+
+.search-entry {
+  margin: 12px;
+  padding: 8px 12px;
+  border-radius: $radii;
+  background: $surface;
+  color: $text;
+  border: 1px solid $border;
+}
+
+.track-list {
+  background: transparent;
+  border-right: 1px solid $border;
+}
+
+.row-cover {
+  border-radius: 6px;
+}
+
+.row-title {
+  font-weight: 600;
+  color: $text;
+}
+
+.row-subtitle {
+  color: $muted;
+}
+
+.cover {
+  border-radius: $radii;
+  background: $surface;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.meta {
+  color: $muted;
+}
+
+button {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: 10px;
+  color: $text;
+}
+
+button:checked,
+button:hover {
+  background: mix($surface, $accent, 80%);
+  border-color: $accent;
+}
+
+progress,
+scale trough {
+  background: $surface;
+  border-radius: 999px;
+  min-height: 6px;
+}
+
+scale highlight,
+.progress slider {
+  background: $accent;
+  border-radius: 999px;
+}

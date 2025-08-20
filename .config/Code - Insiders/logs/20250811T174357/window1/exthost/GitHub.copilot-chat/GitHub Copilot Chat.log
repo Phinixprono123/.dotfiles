@@ -1,0 +1,42 @@
+2025-08-11 17:44:25.717 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-08-11 17:44:25.717 [info] Using the Electron fetcher.
+2025-08-11 17:44:25.717 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-08-11 17:44:25.717 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-08-11 17:44:25.717 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-08-11 17:44:26.297 [info] Logged in as Phinixprono123
+2025-08-11 17:44:28.151 [info] Got Copilot token for Phinixprono123
+2025-08-11 17:44:28.171 [info] activationBlocker from 'languageModelAccess' took for 1945ms
+2025-08-11 17:44:28.320 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-11 17:44:28.320 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-08-11 17:44:28.349 [info] Registering default platform agent...
+2025-08-11 17:44:28.352 [info] activationBlocker from 'conversationFeature' took for 2131ms
+2025-08-11 17:44:28.577 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-11 17:44:29.234 [info] Fetched model metadata in 2995ms 5debdf16-1f2c-40f9-a5f2-6fb159d0a40b
+2025-08-11 17:44:29.507 [info] Latest entry: ccreq:latestrequest.copilotmd
+2025-08-11 17:44:29.510 [info] ccreq:1cd1fc61.copilotmd | markdown
+2025-08-11 17:55:09.546 [info] Fetched model metadata in 993ms 30abd33a-3eb7-43cc-b0c6-0295338afac4
+2025-08-11 17:55:09.694 [info] ccreq:af96c9b9.copilotmd | markdown
+2025-08-11 17:55:20.915 [info] Refetch model metadata: Succeeded in 6202ms 991dbcd4-1f5e-426b-a582-74770698e01a (8694:3C09AB:2AC0276:3C63602:6899DA28) using electron-fetch with status 200.
+2025-08-11 17:55:28.759 [info] Refetch model metadata: Succeeded in 7838ms 4dbbafe8-96b6-422f-89f3-90e89dbc2311 (86AA:315312:2AA26A9:3C4708B:6899DA2E) using node-fetch with status 200.
+2025-08-11 17:55:29.944 [info] Refetch model metadata: Succeeded in 1156ms 5e5fdfad-b805-4c18-8a1e-239e6ad53484 (88F4:330E6D:11C290C:150AA1B:6899DA31) using node-http with status 200.
+2025-08-11 18:05:32.385 [info] Logged in as Phinixprono123
+2025-08-11 18:05:33.974 [info] Got Copilot token for Phinixprono123
+2025-08-11 18:05:34.055 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-11 18:05:35.070 [info] Fetched model metadata in 1071ms 7c2ddfda-6b60-488b-b370-2480124c7441
+2025-08-11 18:05:35.240 [info] ccreq:edfe2142.copilotmd | markdown
+2025-08-11 18:18:38.453 [info] Fetched model metadata in 1101ms 2d94a6e5-b204-4d6f-8fb6-c96da7f917fa
+2025-08-11 18:18:38.619 [info] ccreq:044bf449.copilotmd | markdown
+2025-08-11 18:31:31.918 [info] Logged in as Phinixprono123
+2025-08-11 18:31:33.555 [info] Got Copilot token for Phinixprono123
+2025-08-11 18:31:33.649 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-11 18:31:34.681 [info] Fetched model metadata in 1109ms 98579a75-9a3d-4fdd-9d11-099d51eab0c4
+2025-08-11 18:31:34.794 [info] ccreq:0e84e233.copilotmd | markdown
+2025-08-11 18:42:03.825 [info] Fetched model metadata in 1231ms 7d5b72b6-e7da-4935-abff-277c8b394dc3
+2025-08-11 18:42:03.982 [info] ccreq:e54973c0.copilotmd | markdown
+2025-08-11 18:55:04.283 [info] Logged in as Phinixprono123
+2025-08-11 18:55:10.788 [info] Got Copilot token for Phinixprono123
+2025-08-11 18:55:10.985 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-11 18:55:11.984 [info] Fetched model metadata in 1172ms 3459f3fe-df14-455c-9553-0bf9f12ff93d
+2025-08-11 18:55:12.116 [info] ccreq:05a59fbe.copilotmd | markdown
+2025-08-11 19:05:32.586 [info] Fetched model metadata in 2788ms 3cbc23bf-2dca-4585-88c3-24c859b4e6da
+2025-08-11 19:05:32.959 [info] ccreq:8b63e616.copilotmd | markdown

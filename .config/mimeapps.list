@@ -18,6 +18,8 @@ application/x-raw-disk-image-xz-compressed=7zFM.desktop
 application/x-xz=7zFM.desktop
 image/png=qimgv.desktop
 application/pdf=libreoffice-draw.desktop
+image/jpeg=qimgv.desktop
+image/svg+xml=qimgv.desktop
 
 [Added Associations]
 video/x-matroska=vlc.desktop;
@@ -36,3 +38,5 @@ application/x-raw-disk-image-xz-compressed=7zFM.desktop;
 application/x-xz=7zFM.desktop;
 image/png=qimgv.desktop;
 application/pdf=libreoffice-draw.desktop;
+image/jpeg=qimgv.desktop;
+image/svg+xml=qimgv.desktop;

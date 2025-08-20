@@ -1,0 +1,163 @@
+8/9/2025, 10:46:28 AM 253 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension arcticicestudio.nord-visual-studio-code for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension charliermarsh.ruff for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension Dart-Code.dart-code for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension esbenp.prettier-vscode for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csdevkit for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csharp for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-python.vscode-python-envs for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cmake-tools for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cpptools-themes for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension usernamehw.errorlens for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension VisualStudioExptTeam.intellicode-api-usage-examples for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-gradle for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-debug for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-dependency for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-pack for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-test for .NET installation requests
+
+8/9/2025, 10:46:28 AM 254 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-maven for .NET installation requests
+
+8/9/2025, 10:52:37 AM 534 DotnetVSCodeExtensionChange
+true
+A change was detected in the extensions. Installing .NET for new extensions.
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension arcticicestudio.nord-visual-studio-code for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension charliermarsh.ruff for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension Dart-Code.dart-code for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension esbenp.prettier-vscode for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csdevkit for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csharp for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-python.vscode-python-envs for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cmake-tools for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cpptools-themes for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension usernamehw.errorlens for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension VisualStudioExptTeam.intellicode-api-usage-examples for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-gradle for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-debug for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-dependency for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-pack for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-java-test for .NET installation requests
+
+8/9/2025, 10:52:37 AM 535 DotnetVSCodeExtensionFound
+true
+Checking extension vscjava.vscode-maven for .NET installation requests

@@ -34,8 +34,8 @@ plugin=org.kde.plasma.colorpicker
 
 [Containments][2][Applets][27][Configuration]
 PreloadWeight=55
-popupHeight=324
-popupWidth=324
+popupHeight=340
+popupWidth=340
 
 [Containments][2][Applets][3]
 immutability=1
@@ -43,8 +43,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=552
-popupWidth=692
+popupHeight=568
+popupWidth=708
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -58,7 +58,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:com.mitchellh.ghostty.desktop,applications:systemsettings.desktop,preferred://browser,applications:org.kde.discover.desktop,preferred://filemanager
+launchers=applications:kitty.desktop,applications:systemsettings.desktop,preferred://browser,applications:org.kde.discover.desktop,preferred://filemanager
 
 [Containments][2][Applets][6]
 immutability=1
@@ -71,8 +71,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=464
-popupWidth=464
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][7][Applets][10]
@@ -126,14 +126,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1

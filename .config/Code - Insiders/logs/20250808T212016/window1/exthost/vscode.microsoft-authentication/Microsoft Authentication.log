@@ -1,0 +1,21 @@
+2025-08-08 21:20:53.539 [info] Acquired MSAL enablement value from default. Value: false
+2025-08-08 21:20:55.133 [warning] [Fri, 08 Aug 2025 15:20:55 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-08 21:21:00.264 [info] [getSessions] [all] starting
+2025-08-08 21:21:00.264 [info] [getSessions] [all] returned 0 session(s)
+2025-08-08 21:21:00.268 [info] [getSessions] [all] starting
+2025-08-08 21:21:00.269 [info] [getSessions] [all] returned 0 session(s)
+2025-08-08 21:21:00.270 [info] [getSessions] [all] starting
+2025-08-08 21:21:00.271 [info] [getSessions] [all] returned 0 session(s)
+2025-08-08 21:21:00.273 [info] [getSessions] [all] starting
+2025-08-08 21:21:00.273 [info] [getSessions] [all] returned 0 session(s)
+2025-08-08 21:21:00.285 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-08 21:21:00.285 [warning] [Fri, 08 Aug 2025 15:21:00 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-08 21:21:00.332 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-08 21:21:10.815 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-08 21:21:10.816 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-08 21:21:16.944 [info] [getSessions] [all] starting
+2025-08-08 21:21:16.944 [info] [getSessions] [all] returned 0 session(s)
+2025-08-08 21:43:33.538 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-08 21:43:33.552 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-08 22:04:36.087 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-08 22:04:36.110 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)

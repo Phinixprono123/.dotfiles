@@ -1,0 +1,6 @@
+[Unit]
+Description=Update weather cache
+
+[Service]
+ExecStart=%h/.config/waybar/custom_modules/weather.sh
+

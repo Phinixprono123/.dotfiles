@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/phinixprono1234/.config/Code - Insiders/User/workspaceStorage/a48d08b47633b55c561e293e00c2b852/redhat.java/.6df9a1b087bf1bcaae26e0494d3dfdee5a8be262-audit.json",
+    "files": [
+        {
+            "date": 1754661987448,
+            "name": "/home/phinixprono1234/.config/Code - Insiders/User/workspaceStorage/a48d08b47633b55c561e293e00c2b852/redhat.java/client.log.2025-08-08",
+            "hash": "3e18ccc042d3751c0cb721702c2853f01eb8bfa399951ceb3582f78e3e7a701c"
+        }
+    ],
+    "hashType": "sha256"
+}

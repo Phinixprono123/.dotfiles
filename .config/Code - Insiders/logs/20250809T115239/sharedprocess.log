@@ -1,0 +1,7 @@
+2025-08-09 11:52:52.328 [info] Deleted marked for removal extension from disk github.copilot /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723
+2025-08-09 12:13:19.135 [info] Getting Manifest... danylopashuk.bit-viewer
+2025-08-09 12:13:19.600 [info] Installing extension: danylopashuk.bit-viewer {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","path":"/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0-insider","date":"2025-08-08T05:04:59.345Z"}}
+2025-08-09 12:13:30.157 [info] Extension signature verification result for danylopashuk.bit-viewer: Success. Internal Code: 0. Executed: true. Duration: 2766ms.
+2025-08-09 12:13:30.233 [info] Extracted extension to file:///home/phinixprono1234/.vscode-insiders/extensions/danylopashuk.bit-viewer-1.0.0: danylopashuk.bit-viewer
+2025-08-09 12:13:30.303 [info] Renamed to /home/phinixprono1234/.vscode-insiders/extensions/danylopashuk.bit-viewer-1.0.0
+2025-08-09 12:13:30.448 [info] Extension installed successfully: danylopashuk.bit-viewer vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json

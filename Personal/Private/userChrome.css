@@ -1,0 +1,120 @@
+/* === Zen Browser Custom Styling === */
+
+/* Style and center the URL bar within the toolbar */
+#urlbar {
+  position: relative !important;
+  border-radius: 12px !important;
+  background-color: rgba(59, 66, 82, 0.95) !important; /* Deep bluish-gray */
+  color: #fff !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3) !important;
+  padding: 6px 12px !important;
+  margin: 6px auto !important;
+  max-width: 600px !important;
+}
+
+/* Dark background for the top toolbar */
+#navigator-toolbox {
+  background-color: #434c5e !important;
+}
+
+/* URL bar input field styling */
+#urlbar-input {
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+/* Hide dropdown suggestions by default */
+.urlbarView-results {
+  display: none !important;
+}
+
+/* === Search Dropdown Styling === */
+
+/* Set dropdown background and text color */
+.urlbarView-body,
+.urlbarView-results,
+.urlbarView-row,
+.urlbarView-row-inner {
+  background-color: #2e3440 !important; /* Matches toolbar */
+  color: #000 !important;
+}
+
+/* Highlight dropdown item on hover or selection */
+.urlbarView-row:hover,
+.urlbarView-row[selected],
+.urlbarView-row[selected] .urlbarView-row-inner {
+  background-color: #2e3440 !important;
+  color: #000 !important;
+}
+
+/* Override internal theme layers for dropdown */
+#urlbar-background,
+.panel-arrowcontent {
+  background-color: #2e3440 !important;
+  color: #000 !important;
+}
+
+/* Show dropdown results only when typing */
+#urlbar[focused-within] .urlbarView-results {
+  display: block !important;
+}
+
+/* Remove branding element if present */
+#branding {
+  display: none !important;
+}
+
+/* Add glow effect around focused URL bar */
+#urlbar[focused-within] {
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.6) !important;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.tab-label {
+  color: #d8dee9 !important;
+}
+
+/* Dropdown Customazation */
+/* Attempt deep override for ≡ Menu interior content */
+panelview,
+.panel-subview-body {
+  background-color: #3b4252 !important; /* Nord Polar Night */
+  color: #d8dee9 !important; /* Nord Snow Storm */
+}
+
+panelview toolbarbutton,
+panelview .toolbarbutton-text,
+panelview .toolbarbutton-icon {
+  color: #d8dee9 !important;
+  fill: #88c0d0 !important; /* Nord Frost for icons */
+}
+
+panelview toolbarbutton:hover {
+  background-color: #434c5e !important;
+  color: #ffffff !important;
+}
+
+/* Workspace */
+/* Target workspace switcher menu */
+#workspace-switcher,
+.workspace-menu,
+.workspace-popup,
+.workspace-panel,
+.workspace-selector {
+  background-color: #3b4252 !important; /* Nord Polar Night */
+  color: #d8dee9 !important; /* Nord Snow Storm */
+}
+
+/* Optional: style buttons inside the menu */
+.workspace-menu button,
+.workspace-popup button,
+.workspace-panel button {
+  background-color: #434c5e !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+}
+
+/* Optional: hover effect */
+.workspace-menu button:hover {
+  background-color: #4c566a !important;
+}

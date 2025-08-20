@@ -1,0 +1,76 @@
+.app-root {
+  background: #121212;
+  color: #e6e6e6
+}
+
+.app-header {
+  background: #1e1e1e;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06)
+}
+
+.search-entry {
+  margin: 12px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #1e1e1e;
+  color: #e6e6e6;
+  border: 1px solid rgba(255, 255, 255, 0.06)
+}
+
+.track-list {
+  background: transparent;
+  border-right: 1px solid rgba(255, 255, 255, 0.06)
+}
+
+.row-cover {
+  border-radius: 6px
+}
+
+.row-title {
+  font-weight: 600;
+  color: #e6e6e6
+}
+
+.row-subtitle {
+  color: #a0a0a0
+}
+
+.cover {
+  border-radius: 12px;
+  background: #1e1e1e
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700
+}
+
+.meta {
+  color: #a0a0a0
+}
+
+button {
+  background: #1e1e1e;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  color: #e6e6e6
+}
+
+button:checked,
+button:hover {
+  background: #3a2bbf;
+  border-color: #7c4dff
+}
+
+progress,
+scale trough {
+  background: #1e1e1e;
+  border-radius: 999px;
+  min-height: 6px
+}
+
+scale highlight,
+.progress slider {
+  background: #7c4dff;
+  border-radius: 999px
+}

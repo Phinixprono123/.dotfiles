@@ -331,16 +331,12 @@ scrollbar trough {
   padding-right: 0.5rem;
 }
 
-.notification image,
 .notification-content image {
-  all: revert;
-  margin: 0;
-  padding: 0;
-  border: none;
-  max-width: 100%;
+  display: block;
+  width: clamp(180px, 45%, 240px); /* never smaller than 180px, never bigger than 240px */
   height: auto;
-  min-width: 200px;
-  min-height: 120px;
+  margin: 0 !important;
+  padding: 0 !important;
   border-radius: 8px;
 }
 

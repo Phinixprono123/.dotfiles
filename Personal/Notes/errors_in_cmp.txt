@@ -1,0 +1,3 @@
+client.stopped > client:stopped
+client.request > client:request
+client.cancel_request > client:cancel_request

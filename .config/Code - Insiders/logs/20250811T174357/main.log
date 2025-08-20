@@ -1,0 +1,66 @@
+2025-08-11 17:43:59.937 [info] update#setState idle
+2025-08-11 17:44:29.802 [info] update#setState checking for updates
+2025-08-11 17:44:29.949 [info] update#setState available for download
+2025-08-11 17:54:55.756 [warning] [perf] profiling STARTED 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:55:00.917 [warning] [perf] profiling DONE 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:55:01.856 [warning] [perf] profiling STARTED 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:55:06.991 [warning] [perf] profiling DONE 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:55:07.592 [warning] [perf] profiling STARTED 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:55:12.654 [warning] [perf] profiling DONE 495501db-393f-45ff-ac10-2613e4109347
+2025-08-11 17:58:09.675 [warning] [perf] profiling STARTED 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 17:58:14.946 [warning] [perf] profiling DONE 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 17:58:15.944 [warning] [perf] profiling STARTED 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 17:58:21.067 [warning] [perf] profiling DONE 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 17:58:22.172 [warning] [perf] profiling STARTED 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 17:58:27.305 [warning] [perf] profiling DONE 86c5bd94-d07e-433f-859d-1a6f00e6fac5
+2025-08-11 18:10:55.873 [warning] No ptyHost heartbeat after 6 seconds
+2025-08-11 18:10:59.622 [warning] [perf] profiling STARTED 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:04.753 [warning] [perf] profiling DONE 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:06.550 [warning] [perf] profiling STARTED 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:11.604 [warning] [perf] profiling DONE 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:11.954 [warning] [perf] profiling STARTED 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:16.987 [warning] [perf] profiling DONE 1abddd6a-c83e-4ed4-b8c9-03405c9fd357
+2025-08-11 18:11:19.432 [warning] No ptyHost heartbeat after 6 seconds
+2025-08-11 18:11:21.711 [warning] [perf] profiling STARTED 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:11:26.761 [warning] [perf] profiling DONE 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:11:27.089 [warning] [perf] profiling STARTED 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:11:32.161 [warning] [perf] profiling DONE 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:11:32.456 [warning] [perf] profiling STARTED 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:11:37.536 [warning] [perf] profiling DONE 4b76ae0a-7394-4758-9748-c50aa95ac767
+2025-08-11 18:15:18.249 [warning] [perf] profiling STARTED 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:15:23.683 [warning] [perf] profiling DONE 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:15:28.509 [warning] [perf] profiling STARTED 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:15:33.547 [warning] [perf] profiling DONE 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:15:33.889 [warning] [perf] profiling STARTED 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:15:38.949 [warning] [perf] profiling DONE 043091e2-b777-47dc-ac41-535c8bb28aad
+2025-08-11 18:20:21.468 [warning] [perf] profiling STARTED bdcafe5a-fb09-40e9-8cf0-3fe992712b06
+2025-08-11 18:20:26.563 [warning] [perf] profiling DONE bdcafe5a-fb09-40e9-8cf0-3fe992712b06
+2025-08-11 18:20:35.933 [warning] [perf] profiling STARTED 344ed250-a60b-4a82-b2fa-568994043825
+2025-08-11 18:20:42.230 [warning] [perf] profiling DONE 344ed250-a60b-4a82-b2fa-568994043825
+2025-08-11 18:31:40.060 [warning] [perf] profiling STARTED 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:31:45.218 [warning] [perf] profiling DONE 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:31:48.359 [warning] No ptyHost heartbeat after 6 seconds
+2025-08-11 18:31:51.438 [warning] [perf] profiling STARTED 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:31:56.491 [warning] [perf] profiling DONE 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:31:56.848 [warning] [perf] profiling STARTED 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:32:01.903 [warning] [perf] profiling DONE 0695091d-70ef-4aa4-acef-f15598cd3a9e
+2025-08-11 18:41:09.177 [warning] [perf] profiling STARTED 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:41:14.345 [warning] [perf] profiling DONE 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:41:15.257 [warning] [perf] profiling STARTED 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:41:20.418 [warning] [perf] profiling DONE 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:41:21.283 [warning] [perf] profiling STARTED 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:41:26.392 [warning] [perf] profiling DONE 830893f8-7c0e-4489-8577-81f5e4a7e339
+2025-08-11 18:42:09.801 [warning] [perf] profiling STARTED 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:42:14.896 [warning] [perf] profiling DONE 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:42:15.255 [warning] [perf] profiling STARTED 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:42:20.331 [warning] [perf] profiling DONE 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:42:20.673 [warning] [perf] profiling STARTED 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:42:25.718 [warning] [perf] profiling DONE 975d59ce-b9e1-4a88-b698-a096c654f740
+2025-08-11 18:55:18.675 [warning] No ptyHost heartbeat after 6 seconds
+2025-08-11 19:05:07.596 [warning] [perf] profiling STARTED d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:05:13.774 [warning] [perf] profiling DONE d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:05:15.087 [warning] [perf] profiling STARTED d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:05:20.172 [warning] [perf] profiling DONE d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:05:20.530 [warning] [perf] profiling STARTED d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:05:25.604 [warning] [perf] profiling DONE d43f57eb-e57e-4968-b689-8e074fcde1ef
+2025-08-11 19:28:27.366 [info] Extension host with pid 18974 exited with code: 0, signal: unknown.

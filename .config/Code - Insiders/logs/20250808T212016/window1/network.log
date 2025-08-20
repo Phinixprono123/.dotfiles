@@ -1,0 +1,4 @@
+2025-08-08 21:29:52.654 [error] #37: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2025-08-08 21:29:52.663 [error] #38: https://www.vscode-unpkg.net/_gallery/eamodio/gitlens/latest - error GET Canceled
+2025-08-08 21:29:52.671 [error] #39: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-08-08 21:29:53.287 [error] #40: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

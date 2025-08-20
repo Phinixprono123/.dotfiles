@@ -13,9 +13,9 @@
           "type": "string"   // string, icon, both, or none
       },
       "bar": {
-          "width": 10,       // Width of percentage bars
-          "charElapsed": "■", // Character for elapsed portion
-          "charTotal": "-"   // Character for total portion
+          "width": 10,       // Width of percentage barsa
+          "char.Elapsed": "■", // Character for elapsed portion
+          "char.Total": "-"   // Character for total portion
       },
       "percent": {
           "type": 9,         // 1=number, 2=bar, 3=both, 9=colored number

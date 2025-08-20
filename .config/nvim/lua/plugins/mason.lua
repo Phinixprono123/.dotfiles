@@ -31,6 +31,8 @@ return {
 					"bashls",
 					"asm_lsp",
 					"ruby_lsp",
+					"cssls",
+					"html",
 				},
 			})
 		end,

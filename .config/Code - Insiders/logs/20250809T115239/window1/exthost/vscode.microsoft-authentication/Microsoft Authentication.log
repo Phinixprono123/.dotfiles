@@ -1,0 +1,17 @@
+2025-08-09 11:53:03.311 [info] Acquired MSAL enablement value from default. Value: false
+2025-08-09 11:53:05.493 [warning] [Sat, 09 Aug 2025 05:53:05 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-09 11:53:05.765 [info] [getSessions] [all] starting
+2025-08-09 11:53:05.765 [info] [getSessions] [all] returned 0 session(s)
+2025-08-09 11:53:05.765 [info] [getSessions] [all] starting
+2025-08-09 11:53:05.765 [info] [getSessions] [all] returned 0 session(s)
+2025-08-09 11:53:05.766 [info] [getSessions] [all] starting
+2025-08-09 11:53:05.766 [info] [getSessions] [all] returned 0 session(s)
+2025-08-09 11:53:05.766 [info] [getSessions] [all] starting
+2025-08-09 11:53:05.766 [info] [getSessions] [all] returned 0 session(s)
+2025-08-09 11:53:05.837 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-09 11:53:05.837 [warning] [Sat, 09 Aug 2025 05:53:05 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-09 11:53:05.886 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-09 11:53:10.127 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-09 11:53:10.127 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-09 11:53:14.598 [info] [getSessions] [all] starting
+2025-08-09 11:53:14.598 [info] [getSessions] [all] returned 0 session(s)

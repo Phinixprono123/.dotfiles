@@ -1,0 +1,11 @@
+[Unit]
+Description=Run weather updater every 10 minutes
+
+[Timer]
+OnBootSec=10
+OnUnitActiveSec=1min
+Unit=weather-updater.service
+
+[Install]
+WantedBy=timers.target
+

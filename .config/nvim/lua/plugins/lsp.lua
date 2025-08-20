@@ -2,7 +2,7 @@ return {
 	"neovim/nvim-lspconfig",
 	config = function()
 		-- List your servers here
-		local servers = { "lua_ls", "pyright", "clangd", "ts_ls", "ruby_ls", "bashls", "asm_lsp" }
+		local servers = { "lua_ls", "pyright", "clangd", "ts_ls", "ruby_ls", "bashls", "asm_lsp", "cssls", "html-lsp" }
 
 		-- Global defaults for all servers
 		vim.lsp.config("*", {

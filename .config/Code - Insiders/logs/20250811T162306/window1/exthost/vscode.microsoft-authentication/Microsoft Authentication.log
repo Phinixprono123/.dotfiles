@@ -1,0 +1,21 @@
+2025-08-11 16:23:42.597 [info] Acquired MSAL enablement value from default. Value: false
+2025-08-11 16:23:42.681 [warning] [Mon, 11 Aug 2025 10:23:42 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-11 16:23:42.702 [info] [getSessions] [all] starting
+2025-08-11 16:23:42.702 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:23:42.702 [info] [getSessions] [all] starting
+2025-08-11 16:23:42.702 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:23:42.702 [info] [getSessions] [all] starting
+2025-08-11 16:23:42.702 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:23:42.705 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-11 16:23:42.705 [warning] [Mon, 11 Aug 2025 10:23:42 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-08-11 16:23:42.716 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-11 16:23:44.496 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-11 16:23:44.496 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-08-11 16:23:55.223 [info] [getSessions] [all] starting
+2025-08-11 16:23:55.223 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:23:55.224 [info] [getSessions] [all] starting
+2025-08-11 16:23:55.224 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:23:55.238 [info] [getSessions] [all] starting
+2025-08-11 16:23:55.238 [info] [getSessions] [all] returned 0 session(s)
+2025-08-11 16:44:50.217 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-08-11 16:44:50.219 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)

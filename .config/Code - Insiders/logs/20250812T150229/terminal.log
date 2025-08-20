@@ -1,0 +1,5 @@
+2025-08-12 15:03:17.628 [info] Latency measurements for local backend
+window<->ptyhost (message port): 9.80ms
+window<->ptyhostservice<->ptyhost: 17.50ms
+ptyhostservice<->ptyhost: 4.59ms []
+2025-08-12 16:31:03.897 [error] Exception occurred during xterm disposal [{}]

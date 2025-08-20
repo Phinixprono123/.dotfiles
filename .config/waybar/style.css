@@ -3,7 +3,7 @@
   border-radius: 10px;
   font-family:
     "Hack", "JetbrainsMono Nerd Font", "Font Awesome 5 Free",
-    "Material Design Icons";
+    "Material Design Icons", "Noto Sans Symbols";
   font-size: 15px;
   min-height: 10px;
 }
@@ -38,6 +38,7 @@
   margin-top: 6px;
   margin-left: 12px;
   font-size: 4px;
+  font-weight: 600;
   border-radius: 10px;
   background-color: #3b4252;
   transition: none;
@@ -132,3 +133,18 @@
   color: #bf616a;
   background: #3b4252;
 }
+
+#custom-weather {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  margin-top: 6px;
+  margin-right: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #8FBCBB;
+  background: #3b4252;
+}
+

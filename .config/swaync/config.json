@@ -33,10 +33,10 @@
   "text-empty": "No Notifications",
   "script-fail-notify": true,
   "scripts": {
-    "example-script": {
-      "exec": "echo 'Do something...'",
-      "urgency": "Normal"
-    },
+    "focus-tab": {
+        "exec": "~/.local/bin/tabfocus /opt/zen-browser/zen-bin \"YouTube\"",
+        "run-on": "action"
+    }
     "example-action-script": {
       "exec": "echo 'Do something actionable!'",
       "urgency": "Normal",

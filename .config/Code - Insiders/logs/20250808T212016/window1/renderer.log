@@ -1,0 +1,920 @@
+2025-08-08 21:20:25.034 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 21:20:25.034 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 21:20:25.034 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 21:20:25.870 [info] Started local extension host with pid 1150.
+2025-08-08 21:20:37.359 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, codeActionAI, activeComment, commentReveal, contribCommentThreadAdditionalMenu, contribCommentsViewThreadMenus, documentFiltersExclusive, embeddings, findTextInFiles, findTextInFiles2, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, aiSettingsSearch, chatParticipantAdditions, chatEditing, defaultChatParticipant, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider, chatParticipantPrivate, chatProvider, contribDebugCreateConfiguration, chatReferenceDiagnostic, textSearchProvider2, chatReferenceBinaryData, languageModelSystem, languageModelCapabilities, inlineCompletionsAdditions, languageModelDataPart, chatStatusItem, taskProblemMatcherStatus, contribLanguageModelToolSets, textDocumentChangeReason, resolvers, taskExecutionTerminal, dataChannels, languageModelThinkingPart
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatProvider, chatParticipantAdditions, defaultChatParticipant, embeddings, mappedEditsProvider, aiRelatedInformation, aiSettingsSearch, chatEditing, codeActionAI, findTextInFiles, findTextInFiles2, textSearchProvider, textSearchProvider2, activeComment, commentReveal, contribSourceControlInputBoxMenu, contribCommentEditorActionsMenu, contribCommentThreadAdditionalMenu, contribCommentsViewThreadMenus, newSymbolNamesProvider, findFiles2, chatReferenceDiagnostic, extensionsAny, authLearnMore, testObserver, aiTextSearchProvider, documentFiltersExclusive, chatParticipantPrivate, contribDebugCreateConfiguration, inlineCompletionsAdditions, chatReferenceBinaryData, languageModelSystem, languageModelCapabilities, languageModelDataPart, chatStatusItem, taskProblemMatcherStatus, contribLanguageModelToolSets, textDocumentChangeReason, resolvers, taskExecutionTerminal, dataChannels
+2025-08-08 21:20:38.723 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-08 21:20:40.695 [info] Auto updating outdated extensions. ms-dotnettools.csharp
+2025-08-08 21:20:41.157 [error] [Extension Host] (node:1150) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-08 21:20:42.320 [error] [Extension Host] (node:1150) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-08-08 21:20:42.386 [info] [perf] Render performance baseline is 49ms
+2025-08-08 21:20:48.760 [info] Extension host (LocalProcess pid: 1150) is unresponsive.
+2025-08-08 21:20:50.035 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-08-08 21:20:52.616 [info] Extension host (LocalProcess pid: 1150) is responsive.
+2025-08-08 21:20:52.617 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-08-08 21:20:52.961 [error] 
+	 at readFileUtf8
+	 at readFileSync (node:fs:435:22)
+	 at t.readFileSync (node:electron/js2c/node_init:2:10939)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:33550)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:33426)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:34615)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:33426)
+	 at Zte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:34804)
+	 at ake (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:36457)
+	 at Kdt (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:37316)
+	 at f (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at ma (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:443)
+	 at onUnexpectedExternalError (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at Jh (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6347)
+	 at 240 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:70578)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2631 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:290307)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 9281 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:773519)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 1768 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:204025)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 9932 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:951135)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 6400 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:538389)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2463 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:275381)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 8496 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:752827)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 8365 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:731572)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 3323 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:313147)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 7970 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:693292)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 85 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:9612)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 7740 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:680909)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2083 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:246692)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 4265 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:369688)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:2)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1687:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1885:37)
+	 at Module.load (node:internal/modules/cjs/loader:1457:33)
+	 at Module._load (node:internal/modules/cjs/loader:1195:24)
+	 at c._load (node:electron/js2c/node_init:2:17994)
+	 at e._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5539)
+	 at t._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22593)
+	 at r._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	 at Module.require (node:internal/modules/cjs/loader:1486:36)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-chat-0.31.2025080801/dist/extension.js:322:9424)
+	 at require (node:internal/modules/helpers:134:19)
+	 at Cb (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:865)
+2025-08-08 21:20:52.965 [error] 
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at qEe.quickSort (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14505)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:19673)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14997)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:21297)
+	 at Zte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:34804)
+	 at ake (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:36457)
+	 at Kdt (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:37316)
+	 at f (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at ma (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:443)
+	 at onUnexpectedExternalError (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at Jh (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6347)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1687:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1885:37)
+	 at Module.load (node:internal/modules/cjs/loader:1457:33)
+	 at Module._load (node:internal/modules/cjs/loader:1195:24)
+	 at c._load (node:electron/js2c/node_init:2:17994)
+	 at e._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5539)
+	 at t._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22593)
+	 at r._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	 at Module.require (node:internal/modules/cjs/loader:1486:36)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-chat-0.31.2025080801/dist/extension.js:322:9424)
+	 at require (node:internal/modules/helpers:134:19)
+	 at Cb (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:865)
+2025-08-08 21:20:52.968 [error] 
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:19673)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14997)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:21297)
+	 at Zte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:34804)
+	 at ake (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:36457)
+	 at Kdt (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:37316)
+	 at f (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at ma (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:443)
+	 at onUnexpectedExternalError (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at Jh (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6347)
+	 at 240 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:70578)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2631 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:290307)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 9281 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:773519)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 1768 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:204025)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 9932 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:951135)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 6400 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:538389)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2463 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:275381)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 8496 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:752827)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 8365 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:731572)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 3323 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:313147)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 7970 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:693292)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 85 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:9612)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 7740 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:680909)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 2083 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:246692)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at 4265 (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:369688)
+	 at n (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:957994)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:2:2)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.vscode-dotnet-runtime-2.3.7/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1687:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1885:37)
+	 at Module.load (node:internal/modules/cjs/loader:1457:33)
+	 at Module._load (node:internal/modules/cjs/loader:1195:24)
+	 at c._load (node:electron/js2c/node_init:2:17994)
+	 at e._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5539)
+	 at t._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22593)
+	 at r._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	 at Module.require (node:internal/modules/cjs/loader:1486:36)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-chat-0.31.2025080801/dist/extension.js:322:9424)
+	 at require (node:internal/modules/helpers:134:19)
+	 at Cb (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:865)
+2025-08-08 21:20:52.974 [error] 
+	 at xdt (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:5029)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at Pte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14299)
+	 at qEe.quickSort (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14505)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:19673)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:14997)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:21297)
+	 at Zte (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:34804)
+	 at ake (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:36457)
+	 at Kdt (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:37316)
+	 at f (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:372)
+	 at prepareStackTraceCallback (node:internal/errors:130:35)
+	 at ma (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:632)
+	 at (anonymous) (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:443)
+	 at onUnexpectedExternalError (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:289)
+	 at Jh (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:578)
+	 at get (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6347)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/dist/extension.js:1:1)
+	 at Module._compile (node:internal/modules/cjs/loader:1687:37)
+	 at Module._extensions..js (node:internal/modules/cjs/loader:1885:37)
+	 at Module.load (node:internal/modules/cjs/loader:1457:33)
+	 at Module._load (node:internal/modules/cjs/loader:1195:24)
+	 at c._load (node:electron/js2c/node_init:2:17994)
+	 at e._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5539)
+	 at t._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22593)
+	 at r._load (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25584)
+	 at traceSync (node:diagnostics_channel:320:12)
+	 at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	 at Module.require (node:internal/modules/cjs/loader:1486:36)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-chat-0.31.2025080801/dist/extension.js:322:9424)
+	 at require (node:internal/modules/helpers:134:19)
+	 at Cb (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:865)
+2025-08-08 21:20:53.368 [warning] UNRESPONSIVE extension host: 'github.copilot' took 56.58332372239694% of 1462.035ms, saved PROFILE here: 'file:///tmp/exthost-78132b.cpuprofile'
+2025-08-08 21:20:58.294 [info] Extension host (LocalProcess pid: 1150) is unresponsive.
+2025-08-08 21:20:59.843 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-08-08 21:21:00.064 [info] Extension host (LocalProcess pid: 1150) is responsive.
+2025-08-08 21:21:00.066 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-08-08 21:21:00.371 [error] 
+	 at spawn
+	 at spawn (node:internal/child_process:354:46)
+	 at spawn (node:child_process:780:15)
+	 at (anonymous) (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:1307:61)
+2025-08-08 21:21:00.372 [error] 
+	 at postMessage
+	 at send (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:8375)
+	 at U (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119632)
+	 at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117138)
+	 at registerCommand (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40122)
+	 at registerCommand (file:///opt/VS-Code-Insiders/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:101663)
+	 at registerCommands (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:11029:32)
+	 at activate (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:10863:24)
+	 at activate (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:116912:24)
+2025-08-08 21:21:00.374 [error] 
+	 at computeClientCapabilities (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:85881:30)
+	 at initialize (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:85338:21)
+	 at start (file:///home/phinixprono1234/.vscode-insiders/extensions/ms-vscode.cpptools-1.26.3-linux-x64/dist/src/main.js:85192:16)
+2025-08-08 21:24:07.289 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:24:21.748 [warning] [perf] Renderer reported VERY LONG TASK (1837ms), starting profiling session '21dd51bb-75a3-47b5-9d99-576d16c8538f'
+2025-08-08 21:26:18.929 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:26:20.965 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:26:21.412 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:26:21.414 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:26:21.417 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:26:21.419 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:26:21.419 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:26:21.422 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:26:21.423 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:26:21.425 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:26:21.426 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:26:21.428 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:26:21.889 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:26:21.891 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:26:21.891 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:26:21.893 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:26:21.894 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:26:21.894 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:26:21.896 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:26:21.898 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:26:21.898 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:26:21.898 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:26:22.622 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:26:24.473 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:26:24.474 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:26:24.475 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:26:24.476 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:26:24.476 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:26:24.477 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:26:24.477 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:26:24.477 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:26:24.477 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:26:24.478 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:27:09.712 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:28:21.450 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:28:33.025 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:28:34.382 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:28:34.382 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:28:34.382 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:28:34.382 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:28:34.383 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:28:34.383 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:28:34.383 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:28:34.383 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:28:34.384 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:28:34.384 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:29:32.118 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:29:41.788 [error] [Extension Host] [AsyncCompletionManager] [f206edb0-0c0a-408a-8107-6da02be1d8ed] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:29:52.659 [error] Error while getting the latest version for the extension eamodio.gitlens from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-08-08 21:29:52.665 [error] Error while getting the latest version for the extension eamodio.gitlens. Canceled
+2025-08-08 21:30:09.421 [warning] [perf] Renderer reported VERY LONG TASK (494ms), starting profiling session '6bf04ff7-8d20-4b43-912b-82244cd4821e'
+2025-08-08 21:30:58.138 [warning] [perf] Renderer reported VERY LONG TASK (3768ms), starting profiling session '9cd018b5-5310-451f-a240-701b26b432d0'
+2025-08-08 21:31:25.346 [warning] [perf] Renderer reported VERY LONG TASK (547ms), starting profiling session 'b9798b69-c70e-4cb0-aff8-824d073bc2a2'
+2025-08-08 21:32:54.609 [info] Extension host (LocalProcess pid: 1150) is unresponsive.
+2025-08-08 21:32:54.699 [info] Extension host (LocalProcess pid: 1150) is responsive.
+2025-08-08 21:32:54.700 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-08-08 21:32:57.758 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-08-08 21:32:58.171 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 44.468141828845646% of 3.336ms, saved PROFILE here: 'file:///tmp/exthost-9fcaa6.cpuprofile'
+2025-08-08 21:34:45.359 [error] [Extension Host] [AsyncCompletionManager] [78f7ecfe-63c9-493a-ac52-739ea286049a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:35:11.862 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:35:30.443 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:37:31.539 [error] [Extension Host] [AsyncCompletionManager] [bcac5fb7-a3b8-4032-bb9b-852318b85b7c] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:37:44.414 [error] [Extension Host] [AsyncCompletionManager] [1da2aa99-b2d5-4f83-8d83-27531b5a51bf] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:37:57.900 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:38:03.762 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:38:04.887 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:44:09.996 [error] [Extension Host] [AsyncCompletionManager] [60aef0af-f419-4402-9ffd-a6797eae6240] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:45:00.713 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:46:06.703 [error] [Extension Host] [AsyncCompletionManager] [967c00b6-5cdc-41c5-b7fd-9fd89e573a5f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:46:42.384 [error] [Extension Host] [AsyncCompletionManager] [6b5e619e-daf8-4f02-a9c1-8fc629263ea3] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:49:02.197 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:49:05.924 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:49:54.386 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:51:22.908 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:51:23.592 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:51:23.592 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:51:23.592 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:51:23.592 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:51:23.593 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:51:23.593 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:51:23.593 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:51:23.593 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:51:23.593 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:51:23.594 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:53:48.151 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:53:50.976 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:54:25.729 [error] [Extension Host] [AsyncCompletionManager] [7ef72da8-87bc-4da1-8df5-5ca58eef4987] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 21:57:01.597 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:57:02.657 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:57:03.079 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:57:03.079 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:57:03.080 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:57:03.081 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:57:03.082 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:57:03.083 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:57:03.085 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:57:03.086 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:57:03.087 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:57:03.087 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:57:03.089 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:57:03.090 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:57:03.091 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:57:03.092 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:57:03.092 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:57:03.093 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:57:03.095 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:57:03.096 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:57:03.096 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:57:03.097 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:57:06.115 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:57:06.644 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 21:57:06.644 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 21:57:06.644 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 21:57:06.645 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 21:57:06.645 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 21:57:06.646 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 21:57:06.646 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 21:57:06.646 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 21:57:06.646 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 21:57:06.647 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 21:57:07.595 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:57:17.856 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:58:42.410 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 21:58:57.969 [error] [Extension Host] [AsyncCompletionManager] [30ac0f50-0b8e-4d9f-9832-fcb839117342] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processTimers (node:internal/timers:520:9) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:04:34.489 [error] [Extension Host] [AsyncCompletionManager] [bd19d331-b9ac-4cb9-94e3-f507a6d48f2a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:06:21.387 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:06:24.719 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:06:26.801 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:06:27.938 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:06:29.311 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 22:06:29.316 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 22:06:29.320 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 22:06:29.325 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 22:06:29.326 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 22:06:29.334 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 22:06:29.335 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 22:06:29.336 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 22:06:29.336 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 22:06:29.340 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 22:06:30.990 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:06:56.241 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:07:44.222 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:09:21.375 [error] [Extension Host] [AsyncCompletionManager] [9a78e166-32f3-420c-b7a0-fefce5445868] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:09:26.738 [error] [Extension Host] [AsyncCompletionManager] [bedfc071-046b-4cfe-be1a-d170e6ed7457] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:09:29.724 [error] [Extension Host] [AsyncCompletionManager] [3655fdf5-1231-46ce-92c8-876127031bac] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:09:52.402 [error] [Extension Host] [AsyncCompletionManager] [8fc02409-3f96-4849-83fa-fdd77f846b3e] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:09:58.069 [error] [Extension Host] [AsyncCompletionManager] [f1b5a85b-f3b0-42e7-8a77-4d2cbc8906c0] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/networking.ts:105:19
+    at Ace.invoke (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at uq.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at dce.cancel (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Vc.cancelRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Vc.getFirstMatchingRequest (/home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1723/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-08-08 22:10:50.946 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:10:51.948 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:10:52.563 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 22:10:52.564 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 22:10:52.565 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 22:10:52.566 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 22:10:52.566 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 22:10:52.567 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 22:10:52.567 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 22:10:52.567 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 22:10:52.568 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 22:10:52.569 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 22:10:52.576 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 22:10:52.576 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 22:10:52.577 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 22:10:52.577 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 22:10:52.577 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 22:10:52.577 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 22:10:52.578 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 22:10:52.578 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 22:10:52.578 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 22:10:52.578 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 22:10:52.712 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 22:10:52.743 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 22:10:52.744 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 22:10:52.745 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 22:10:52.746 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 22:10:52.746 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 22:10:52.747 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 22:10:52.747 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 22:10:52.747 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 22:10:52.748 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 22:10:57.408 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:11:02.688 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:11:07.190 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:11:07.746 [warning] [LM] Model copilot/gpt-4.1 is already registered. Skipping.
+2025-08-08 22:11:07.751 [warning] [LM] Model copilot/gpt-3.5-turbo is already registered. Skipping.
+2025-08-08 22:11:07.755 [warning] [LM] Model copilot/gpt-4o-mini is already registered. Skipping.
+2025-08-08 22:11:07.759 [warning] [LM] Model copilot/gpt-4 is already registered. Skipping.
+2025-08-08 22:11:07.760 [warning] [LM] Model copilot/gpt-4-0125-preview is already registered. Skipping.
+2025-08-08 22:11:07.763 [warning] [LM] Model copilot/gpt-4o is already registered. Skipping.
+2025-08-08 22:11:07.764 [warning] [LM] Model copilot/o3-mini is already registered. Skipping.
+2025-08-08 22:11:07.765 [warning] [LM] Model copilot/claude-3.5-sonnet is already registered. Skipping.
+2025-08-08 22:11:07.767 [warning] [LM] Model copilot/gemini-2.0-flash-001 is already registered. Skipping.
+2025-08-08 22:11:07.767 [warning] [LM] Model copilot/auto is already registered. Skipping.
+2025-08-08 22:11:39.488 [error] ProducerConsumer: cannot produce after final value has been set: Error: ProducerConsumer: cannot produce after final value has been set
+    at PWi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84977)
+    at PWi.produceFinal (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:84894)
+    at $Wi.f (vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:86535)
+    at vscode-file://vscode-app/opt/VS-Code-Insiders/resources/app/out/vs/workbench/workbench.desktop.main.js:30:85752
+2025-08-08 22:24:50.252 [warning] [perf] Renderer reported VERY LONG TASK (1521ms), starting profiling session 'aef05607-0f67-4540-a133-e3fbd9c363db'
+2025-08-08 22:24:50.741 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatSessionStore, join.chatEditingSession

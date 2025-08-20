@@ -2,8 +2,17 @@
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces","cpu","memory","tray"],
 	"modules-center": ["custom/window"],
-	"modules-right": ["pulseaudio","clock","custom/power"],
-	
+	"modules-right": ["custom/weather","pulseaudio","clock","custom/power"],
+
+  "custom/weather": {
+    "exec": "~/.config/waybar/custom_modules/weather_cache.sh",
+    "interval": 1,
+    "return-type": "text",
+    "tooltip": true
+  },
+
+
+
   "pulseaudio": {
     "tooltip": false,
     "format": "{icon} {volume}%",
@@ -18,6 +27,7 @@
 
 
   "custom/window": {
+    "tooltip": false,
     "exec": "~/.config/waybar/custom_modules/windows_title.sh",
     "interval": 1
   },
@@ -42,12 +52,12 @@
   },
 
   "cpu": {
-      "interval": 15,
+      "interval": 10,
       "format": " {usage}%",
       "max-length": 100
   },
   "memory": {
-      "interval": 30,
+      "interval": 25,
       "format": " {}%",
       "max-length": 10
   },

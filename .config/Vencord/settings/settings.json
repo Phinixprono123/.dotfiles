@@ -2,10 +2,13 @@
     "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [],
+    "themeLinks": [
+        "https://raw.githubusercontent.com/Phinixprono123/Nordic-Discord/refs/heads/main/src/Nord.css"
+    ],
     "eagerPatches": false,
     "enabledThemes": [
-        "theme-nord.css"
+        "theme-nord.css",
+        "Nord.css"
     ],
     "enableReactDevtools": true,
     "frameless": false,
@@ -585,6 +588,9 @@
         },
         "SupportHelper": {
             "enabled": true
+        },
+        "CopyStickerLinks": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -597,6 +603,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1754892016286
+        "settingsSyncVersion": 1755187989746
     }
 }

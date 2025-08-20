@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/bin/python",
+  "editor.formatOnSave": true,
+  "redhat.telemetry.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.tabSize": 2
+}

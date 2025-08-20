@@ -1,0 +1,8 @@
+2025-08-08 21:20:41.727 [info] Getting Manifest... ms-dotnettools.csharp
+2025-08-08 21:20:42.262 [info] Installing extension: ms-dotnettools.csharp {"installPreReleaseVersion":true,"productVersion":{"version":"1.104.0-insider","date":"2025-08-08T05:04:59.345Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","path":"/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-08-08 21:20:43.464 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2025-08-08 21:24:09.457 [info] Extension signature verification result for ms-dotnettools.csharp: Success. Internal Code: 0. Executed: true. Duration: 4400ms.
+2025-08-08 21:24:57.737 [info] Extracted extension to file:///home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.csharp-2.88.42-linux-x64: ms-dotnettools.csharp
+2025-08-08 21:24:58.083 [info] Renamed to /home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.csharp-2.88.42-linux-x64
+2025-08-08 21:24:59.430 [info] Extension installed successfully: ms-dotnettools.csharp vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json
+2025-08-08 21:24:59.433 [info] Marked extension as removed ms-dotnettools.csharp-2.87.31-linux-x64
