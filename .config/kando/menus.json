@@ -1,0 +1,170 @@
+{
+  "version": "2.1.0-beta.1",
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Material",
+        "icon": "award_star",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Games",
+            "icon": "videogame_asset",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "java -jar /opt/SKlauncher/SKlauncher.jar",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": true
+                },
+                "name": "Minecraft",
+                "icon": "minecraft-creeper-thin-frame.svg",
+                "iconTheme": "Custom"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "flatpak run io.github.yairm210.unciv",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Unciv",
+                "icon": "unciv.svg",
+                "iconTheme": "Custom"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "wine /opt/balatro/Balatro.exe",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Balatro",
+                "icon": "joker-hat.svg",
+                "iconTheme": "Custom"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "~/.config/kando/scripts/mousescroll 0",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "Next workspace",
+            "icon": "arrow_forward_ios",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 90
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Apps",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "discord",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Discord",
+                "icon": "discord",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "~/.config/kando/scripts/openbrowser",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Open browser",
+                "icon": "zen-browser.svg",
+                "iconTheme": "Custom"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Submenu",
+            "icon": "Utilities.svg",
+            "iconTheme": "Custom",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "kitty",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Terminal",
+                "icon": "Terminal.svg",
+                "iconTheme": "Custom"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "flatpak run io.missioncenter.MissionCenter",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "TaskManager",
+                "icon": "monitor_heart",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "~/.config/kando/scripts/mousescroll 1",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "Previous workspace",
+            "icon": "arrow_back_ios_new",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 270
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "pie-menu",
+      "centered": true,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "favs"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": [
+        "favs"
+      ]
+    }
+  ]
+}

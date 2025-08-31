@@ -23,6 +23,8 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-history-substring-search
+
+zinit ice lucid wait"1"
 zinit light Aloxaf/fzf-tab
 
 
@@ -31,7 +33,6 @@ zinit snippet OMZL::git.zsh
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::archlinux
-zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
@@ -52,6 +53,23 @@ bindkey '^[[B' history-substring-search-down
 # zsh-autosuggestions settings
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="40"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
+ZSH_AUTOSUGGEST_STRATEGY=(completion history)
+
+
+
+# Changing directory
+setopt AUTO_CD
+
+# Input/Output
+setopt INTERACTIVE_COMMENTS
+setopt PRINT_EIGHT_BIT
+setopt ZLE
+
+# Job control
+setopt BG_NICE
+
+# Miscellaneous
+setopt BANG_HIST
 
 # History
 HISTSIZE=5000
@@ -59,12 +77,13 @@ HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
 setopt appendhistory
-setopt sharehistory
+setopt SHARE_HISTORY
 setopt hist_ignore_space
 setopt hist_ignore_all_dups
 setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
+
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -80,7 +99,17 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export EDITOR="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# yazi y wrapper
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}

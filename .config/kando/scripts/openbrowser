@@ -1,0 +1,4 @@
+#!/bin/bash
+browser=$(xdg-settings get default-web-browser)
+browser=${browser%}   # strip .desktop
+gtk-launch "$browser"

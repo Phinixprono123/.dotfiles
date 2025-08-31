@@ -1,0 +1,28 @@
+{
+  name: 'EVNTech Vache',
+  author: 'EVNTech Vache',
+  license: 'CC0-1.0',
+  themeVersion: '1.0',
+  engineVersion: 2,
+  maxMenuRadius: 160,
+  drawChildrenBelow: false,
+  colors: {
+    'accent-color': '#6E93CC',
+    'hover-color': '#2E486A',
+    'connector-color': '#82BAD0',
+    'circle-color': '#27223D',
+    'border-color': '#426580',
+    'label-background-color': '#27223D',
+    'text-color': '#6C96A7',
+  },
+  layers: [
+    {
+      class: 'icon-layer',
+      content: 'icon',
+    },
+    {
+      class: 'label-layer',
+      content: 'name',
+    },
+  ],
+}

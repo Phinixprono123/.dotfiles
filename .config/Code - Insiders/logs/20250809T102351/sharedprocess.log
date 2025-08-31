@@ -1,8 +1,0 @@
-2025-08-09 10:24:09.169 [info] Deleted marked for removal extension from disk ms-dotnettools.csharp /home/phinixprono1234/.vscode-insiders/extensions/ms-dotnettools.csharp-2.87.31-linux-x64
-2025-08-09 10:24:14.008 [info] Getting Manifest... github.copilot
-2025-08-09 10:24:14.517 [info] Installing extension: github.copilot {"installPreReleaseVersion":true,"productVersion":{"version":"1.104.0-insider","date":"2025-08-08T05:04:59.345Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","path":"/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"}}
-2025-08-09 10:24:34.076 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 6470ms.
-2025-08-09 10:24:35.398 [info] Extracted extension to file:///home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1724: github.copilot
-2025-08-09 10:24:35.473 [info] Renamed to /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1724
-2025-08-09 10:24:35.628 [info] Marked extension as removed github.copilot-1.353.1723
-2025-08-09 10:24:35.680 [info] Extension installed successfully: github.copilot vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json

@@ -1,2 +1,0 @@
-2025-08-11 17:44:12.102 [info] Revived process, old id a48d08b47633b55c561e293e00c2b852-4 -> new id 1
-2025-08-11 17:44:14.264 [error] Failed to set sticky bit on /tmp/phinixprono1234-code-insiders-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/phinixprono1234-code-insiders-zsh'

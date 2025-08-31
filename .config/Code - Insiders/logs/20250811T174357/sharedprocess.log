@@ -1,9 +1,0 @@
-2025-08-11 17:44:13.202 [info] Deleted marked for removal extension from disk github.copilot-chat /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-chat-0.31.2025080801
-2025-08-11 17:44:13.211 [info] Deleted marked for removal extension from disk github.copilot /home/phinixprono1234/.vscode-insiders/extensions/github.copilot-1.353.1724
-2025-08-11 17:44:18.159 [info] Getting Manifest... ms-python.vscode-python-envs
-2025-08-11 17:44:18.639 [info] Installing extension: ms-python.vscode-python-envs {"installPreReleaseVersion":true,"productVersion":{"version":"1.104.0-insider","date":"2025-08-08T05:04:59.345Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","path":"/home/phinixprono1234/.vscode-insiders/extensions/extensions.json","scheme":"vscode-userdata"}}
-2025-08-11 17:44:28.485 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 4707ms.
-2025-08-11 17:44:28.726 [info] Extracted extension to file:///home/phinixprono1234/.vscode-insiders/extensions/ms-python.vscode-python-envs-1.3.12231008-linux-x64: ms-python.vscode-python-envs
-2025-08-11 17:44:28.846 [info] Renamed to /home/phinixprono1234/.vscode-insiders/extensions/ms-python.vscode-python-envs-1.3.12231008-linux-x64
-2025-08-11 17:44:29.116 [info] Marked extension as removed ms-python.vscode-python-envs-1.3.12131644-linux-x64
-2025-08-11 17:44:29.118 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/phinixprono1234/.vscode-insiders/extensions/extensions.json
