@@ -9,3 +9,7 @@ end, { desc = "Try linting for the current file" })
 vim.keymap.set("n", "<leader>n", function()
 	require("telescope").extensions.notify.notify()
 end, { desc = "Show notification history" })
+
+vim.keymap.set({ "n", "v" }, "d", function()
+	return '"_d'
+end, { expr = true, noremap = true })

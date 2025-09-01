@@ -8,8 +8,8 @@ return {
 		performance_mode = true,
 		direction_mode = "auto",
 		framerate = 60,
-		scroll_down_time = 350,
-		scroll_up_time = 350,
+		scroll_down_time = 300,
+		scroll_up_time = 300,
 	},
 	config = function(_, opts)
 		local neoscroll = require("neoscroll")
