@@ -6,6 +6,8 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
+vim.opt.undofile = true
+vim.opt.undodir = os.getenv("~/.cache/nvim/undo")
 
 vim.g.mapleader = " "
 
