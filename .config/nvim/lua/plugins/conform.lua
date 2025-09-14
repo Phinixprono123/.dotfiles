@@ -8,6 +8,8 @@ return {
 			typescript = { "prettierd" },
 			c = { "clang-format" },
 			cpp = { "clang-format" },
+			html = { "prettierd" },
+			css = { "prettierd" },
 		},
 		format_on_save = {
 			timeout_ms = 5000,

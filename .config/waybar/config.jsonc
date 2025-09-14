@@ -2,7 +2,7 @@
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces","cpu","memory","tray"],
 	"modules-center": ["custom/window"],
-	"modules-right": ["custom/weather","pulseaudio","clock","custom/power"],
+	"modules-right": ["pulseaudio","clock","custom/power"],
 
   "custom/weather": {
     "exec": "~/.config/waybar/custom_modules/weather_cache.sh",
