@@ -1,6 +1,6 @@
 return {
 	"pteroctopus/faster.nvim",
-	enable = false,
+	enable = true,
 	config = function()
 		require("faster").setup()
 	end,

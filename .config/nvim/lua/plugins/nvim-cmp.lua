@@ -6,6 +6,8 @@ return {
 		"hrsh7th/cmp-buffer",
 		"hrsh7th/cmp-path",
 		"hrsh7th/cmp-cmdline",
+		"hrsh7th/cmp-calc",
+		"hrsh7th/cmp-cmdline",
 		"L3MON4D3/LuaSnip",
 		"rafamadriz/friendly-snippets",
 		"onsails/lspkind.nvim",
@@ -26,6 +28,23 @@ return {
 					luasnip.lsp_expand(args.body)
 				end,
 			},
+			window = {
+				completion = cmp.config.window.bordered({
+					side_padding = 0,
+					border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+					-- winhighlight = "Normal:Pmenu,FloatBorder:PmenuBorder,CursorLine:PmenuSel",
+				}),
+				documentation = cmp.config.window.bordered({ -- right-side docs
+					side_padding = 0,
+					border = "rounded", -- "single", "double", "rounded", or custom table
+					-- winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
+				}),
+			},
+			vim.api.nvim_set_hl(0, "PmenuBorder", { fg = "#8BE9FD", bg = "NONE" }),
+			vim.api.nvim_set_hl(0, "Pmenu", { fg = "#ECEFF4", bg = "#2E3440" }),
+			vim.api.nvim_set_hl(0, "PmenuSel", { fg = "#2E3440", bg = "#88C0D0" }),
+			vim.api.nvim_set_hl(0, "FloatBorder", { fg = "#8BE9FD", bg = "NONE" }),
+
 			mapping = cmp.mapping.preset.insert({
 				["<C-b>"] = cmp.mapping.scroll_docs(-4),
 				["<C-f>"] = cmp.mapping.scroll_docs(4),
@@ -53,6 +72,8 @@ return {
 			}),
 			sources = cmp.config.sources({
 				{ name = "nvim_lsp" },
+				{ name = "calc" },
+				{ name = "cmdline" },
 				{ name = "luasnip" },
 				{ name = "buffer" },
 				{ name = "path" },
@@ -62,6 +83,10 @@ return {
 					maxwidth = 50,
 					ellipsis_char = "...",
 					mode = "symbol_text",
+					format_symbol = {
+						path = "󰉋",
+						buffer = "󰈚",
+					},
 				}),
 			},
 		})

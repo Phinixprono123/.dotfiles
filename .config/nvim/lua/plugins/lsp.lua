@@ -1,5 +1,6 @@
 return {
 	"neovim/nvim-lspconfig",
+  event = { "BufReadPre", "BufNewFile" },
 	config = function()
 		-- List your servers here
 		local servers = { "lua_ls", "pyright", "clangd", "ts_ls", "ruby_ls", "bashls", "asm_lsp", "cssls", "html-lsp" }
@@ -19,7 +20,6 @@ return {
 				map("n", "gr", vim.lsp.buf.references)
 				map("n", "<leader>ca", vim.lsp.buf.code_action)
 
-				-- Enable omnifunc for completion (your cmp will hook into this)
 				vim.bo[bufnr].omnifunc = "v:lua.vim.lsp.omnifunc"
 			end,
 		})

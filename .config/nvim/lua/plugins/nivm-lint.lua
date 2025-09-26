@@ -1,5 +1,6 @@
 return {
 	"mfussenegger/nvim-lint",
+  lazy = true,
 	event = { "BufReadPost", "BufNewFile" },
 	config = function()
 		require("lint").linters_by_ft = {

@@ -1,3 +1,4 @@
+-- set options
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
@@ -8,27 +9,30 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
 vim.opt.undofile = true
 vim.opt.undodir = os.getenv("~/.cache/nvim/undo")
+vim.opt.mouse = ""
 
+-- global options
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
+-- enable line numbers
 vim.wo.number = true
 vim.wo.relativenumber = true
 
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#75715E", bg = "none" })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#75715E", bg = "none" })
 
+-- fix diagnostics
 vim.diagnostic.config({
 	virtual_text = {
-		prefix = "●", -- Customize prefix if desired
-		severity = { min = vim.diagnostic.severity.WARN }, -- Only show WARN and above
-		source = true, -- Show the linter source
+		prefix = "●",
+		severity = { min = vim.diagnostic.severity.WARN },
+		source = true,
 	},
-	signs = true, -- Enable signs in the sign column
-	update_in_insert = false, -- Don't update diagnostics in insert mode
+	signs = true,
+	update_in_insert = false,
 	float = {
-		border = "rounded", -- Style for the float window
-		source = "always", -- Show source in float
+		border = "rounded",
+		source = "always",
 	},
 })
-
-vim.opt.mouse = ""

@@ -1,5 +1,6 @@
 return {
 	"stevearc/conform.nvim",
+	lazy = true,
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
@@ -10,6 +11,9 @@ return {
 			cpp = { "clang-format" },
 			html = { "prettierd" },
 			css = { "prettierd" },
+			json = { "prettierd" },
+			md = { "prettierd" },
+			rust = { "rustfmt" },
 		},
 		format_on_save = {
 			timeout_ms = 5000,

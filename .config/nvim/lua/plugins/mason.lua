@@ -3,15 +3,7 @@ return {
 		"mason-org/mason.nvim",
 		opts = {},
 		config = function()
-			require("mason").setup({
-				ensure_installed = {
-					"prettier",
-					"stylua",
-					"isort",
-				},
-
-				automatic_install = true,
-			})
+			require("mason").setup()
 		end,
 	},
 	{
@@ -52,6 +44,7 @@ return {
 					"eslint_d",
 					"luacheck",
 					"ast_grep",
+					"prettierd",
 				},
 			})
 		end,

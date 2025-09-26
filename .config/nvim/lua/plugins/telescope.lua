@@ -3,6 +3,7 @@ return {
     'nvim-telescope/telescope.nvim', 
     tag = '0.1.8',
     dependencies = { 'nvim-lua/plenary.nvim' },
+    event = 'VeryLazy',
     config = function()
       local builtin = require('telescope.builtin')
     vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
@@ -11,6 +12,7 @@ return {
   },
   {
     "nvim-telescope/telescope-ui-select.nvim",
+    event = 'VeryLazy',
     config = function()
       require("telescope").setup {
         extensions = {
